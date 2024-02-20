@@ -5,7 +5,6 @@ import {
   TouchableOpacity,
   View,
   StyleSheet,
-  Button,
   Switch,
 } from "react-native";
 

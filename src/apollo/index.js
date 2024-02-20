@@ -1,10 +1,8 @@
 import React from "react";
 import {
-  View,
   Pressable,
   Text,
   FlatList,
-  ScrollView,
   StyleSheet,
 } from "react-native";
 import { useQuery } from "@apollo/client";

@@ -2,10 +2,7 @@ import { useState, useEffect } from "react";
 import {
   SafeAreaView,
   Text,
-  TouchableOpacity,
   View,
-  StyleSheet,
-  Button,
 } from "react-native";
 
 const Task2 = () => {
