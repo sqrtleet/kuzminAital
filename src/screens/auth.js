@@ -20,7 +20,7 @@ import {
     useEffect(() => {
       const unsubscribe = auth.onAuthStateChanged((user) => {
         if (user) {
-          navigation.replace("Tab", { screen: "Lab1" });
+          navigation.replace("Tab", { screen: "lab1" });
         }
       });
   
