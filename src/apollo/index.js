@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from "react-native";
 import { useQuery } from "@apollo/client";
-import { CHARACTERS_QUERY } from "./Query";
+import { CHARACTERS_QUERY } from "./query";
 
 const GraphQl = () => {
   const { data, loading } = useQuery(CHARACTERS_QUERY);
